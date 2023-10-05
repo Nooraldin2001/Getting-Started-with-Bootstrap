@@ -1,6 +1,5 @@
 body {
     font-family: 'Jost', sans-serif;
-    background-color: #e9edf4;
 }
 
 .nav-link {
@@ -17,6 +16,10 @@ body {
     transition: background-color 0.3s ease; /*Add a smooth transition effect */
 }  
 
+.banner-main-div, .navbar-main-div{
+
+    background-color: #e9edf4;
+}
 .navbar-nav {
     margin-right: 0;
 }
@@ -62,7 +65,27 @@ body {
     color: white;
 }
 
-.banner-div{
-    margin-top: 180px;
-    margin-bottom: 100px;
+.banner-main-div, .navbar-main-div{
+    padding-top: 100px;
+}
+
+.creative_icon {
+    height: 98px;
+    max-width: 98px;
+    width: 100%;
+    border-radius: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-right: 30px;
+    background-color: #f2f5fb;
+}
+
+.text-p-emphsis {
+    margin-top: 20px;
+    font-family: "Roboto", sans-serif;
+    font-size: 18px;
+    color: #54545f;
+    line-height: 1.666;
+    margin-bottom: 0;
 }
