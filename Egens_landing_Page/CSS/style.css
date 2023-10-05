@@ -89,3 +89,54 @@ body {
     line-height: 1.666;
     margin-bottom: 0;
 }
+
+.subtitle-WhatWeDo{
+    font-size: 18px;
+    font-family: "Jost", sans-serif;
+    font-weight: 500;
+    line-height: 1.9;
+    color: #7153d9;
+    text-transform: uppercase;
+    letter-spacing: 8px;
+}
+
+.title-WhatWeDo{
+    font-size: 60px;
+    font-family: "Jost", sans-serif;
+    font-weight: 500;
+    line-height: 1.16;
+    color: #1c1c1c;
+}
+
+.text-WhatWeDo {
+    font-size: 21px;
+    font-weight: 400;
+    line-height: 1.5;
+    color: #8d8e99;
+    margin-top: 30px;
+    /* max-width: 510px; */
+}
+
+.single-service-text {
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 1.7;
+    color: #54545f;
+    margin-top: 30px;
+    max-width: 510px;
+    margin-bottom: 0px;
+}
+
+.service-card{
+    background-color: white;
+    box-shadow: 0px 12px 42px rgba(69, 38, 177, 0.1), 11px 6px 25px rgba(69, 38, 177, 0.1);
+}
+
+.service-card-link{
+    font-size: 18px;
+    font-weight: 500;
+    color: #1c1c1c;
+    margin-top: 30px;
+    display: block;
+    text-decoration: none;
+}
