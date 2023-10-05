@@ -12,6 +12,11 @@ body {
     justify-content: flex-end;
 }
 
+.navbar-scrolled {
+    background-color: white; /* Change this to your desired background color */
+    transition: background-color 0.3s ease; /*Add a smooth transition effect */
+}  
+
 .navbar-nav {
     margin-right: 0;
 }
@@ -55,4 +60,9 @@ body {
     font-size: 16px;
     position: relative;
     color: white;
+}
+
+.banner-div{
+    margin-top: 180px;
+    margin-bottom: 100px;
 }
