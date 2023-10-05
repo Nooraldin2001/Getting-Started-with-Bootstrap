@@ -1,0 +1,58 @@
+body {
+    font-family: 'Jost', sans-serif;
+    background-color: #e9edf4;
+}
+
+.nav-link {
+    font-size: 18px;
+    font-weight: 500;
+}
+
+.navbar {
+    justify-content: flex-end;
+}
+
+.navbar-nav {
+    margin-right: 0;
+}
+
+.nav-link:hover{
+    color: #7153d9;
+}
+.head-subtitle{
+    font-size: 24px;
+    font-weight: 500;
+    line-height: 1.9;
+    color: #7153d9;
+    text-transform: uppercase;
+    letter-spacing: 8px;
+}
+
+.head-title{
+    font-size: 72px;
+    font-weight: 500;
+    line-height: 1.16;
+    color: #1c1c1c;
+}
+
+.head-p{
+    font-size: 24px;
+    font-weight: 400;
+    line-height: 1.5;
+    color: #54545f;
+    margin-top: 30px;
+    max-width: 510px;
+}
+
+.head-btn{
+    text-decoration: none;
+    background: #4526b1;
+    background: linear-gradient(135deg, #4526b1 0%, #5435be 45%, #7153d9 66%);
+    border: 0px;
+    border-radius: 27px;
+    padding: 20px 45px;
+    line-height: 1;
+    font-size: 16px;
+    position: relative;
+    color: white;
+}
